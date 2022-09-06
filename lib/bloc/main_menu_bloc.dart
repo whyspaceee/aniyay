@@ -14,6 +14,6 @@ class MainMenuBloc extends Bloc<MainMenuEvent, MainMenuState> {
       emit(MainMenuLoaded(data));
       // TODO: implement event handler
     });
-    add(RetrieveMainMenuEvent("ANIME"));
+    add(const RetrieveMainMenuEvent("ANIME"));
   }
 }

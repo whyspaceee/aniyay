@@ -8,7 +8,7 @@ abstract class MainMenuEvent extends Equatable {
 }
 
 class RetrieveMainMenuEvent extends MainMenuEvent {
-  String type;
+  final String type;
 
-  RetrieveMainMenuEvent(this.type);
+  const RetrieveMainMenuEvent(this.type);
 }
